@@ -1,0 +1,114 @@
+{"intents":[
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up" , "Good morning" , "Good evening" , "hello" , "hey" , "what's up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "that's all", "I am done", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye","i have to go","gotta go"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "the respond will come to you later", "Goodbye!"],
+         "context_set": ""
+        },
+        {"tag": "age",
+         "patterns": ["how old", "how old are you", "what is your age", "how old are you", "age?"],
+         "responses": ["I am old and wise", "trying to stay fit and young!"],
+         "context_set": ""
+        },
+        {"tag": "name",
+         "patterns": ["what is your name", "what should I call you", "whats your name?", "who are you?"],
+         "responses": ["You can call me DoctorBot.", "I'm DoctorBot!", "I'm DoctorBot."],
+         "context_set": ""
+        },
+        
+        {"tag": "help",
+         "patterns": ["Id like to ask something", "what can you do", "can you help me?", "can i tell you something", "need a help"],
+         "responses": ["I'm here to help you!", "I can help you with whatever you tell me to.", "It's ok, you can tell me."],
+         "context_set": ""
+        },
+        
+        {"tag": "chest_pain",
+         "patterns": ["I have a chest pain", "I have a pain in my Chest.", "I feel pressure on my chest.", "I have chest pressure", "I feel squeeze on my chest.", "I have chest squeezing", "I have chest tightness.", "I have chest aching"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "shoulder",
+         "patterns": ["I have discomfort that spreads to the shoulder", "discomfort that spreads to the shoulder","discomfort in shoulder", "pain in shoulder"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "arm",
+         "patterns": ["I have discomfort that spreads to the arm", "discomfort that spreads to the arm","discomfort in arm", "pain in arm"],
+         "responses": ["Ok, what else?","Aha, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "back",
+         "patterns": ["I have discomfort that spreads to the back", "discomfort that spreads to the back","discomfort in back", "pain in back"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "neck",
+         "patterns": ["I have discomfort that spreads to the neck", "discomfort that spreads to the neck","discomfort in neck", "pain in neck"],
+         "responses": ["Ok, what else?", "what else?","Aha, what else?", "I need more data to help you"],
+         "context_set": ""
+        }, 
+        
+        {"tag": "jaw",
+         "patterns": ["I have discomfort that spreads to the jaw", "discomfort that spreads to the jaw","discomfort in jaw", "pain in jaw"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        }, 
+        
+        {"tag": "teeth",
+         "patterns": ["I have discomfort that spreads to the teeth", "discomfort that spreads to the teeth","discomfort in teeth", "pain in teeth"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        }, 
+        
+        {"tag": "belly",
+         "patterns": ["I have discomfort that spreads to the upper belly", "discomfort that spreads to the upper belly","discomfort in upper belly", "pain in upper belly"],
+         "responses": ["Ok, what else?", "what else?", "I need more data to help you"],
+         "context_set": ""
+        }, 
+        
+        {"tag": "cold sweat",
+         "patterns": ["cold sweat", "I have a sweat cold"],
+         "responses": ["Ok, what else?", "what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "fatigue",
+         "patterns": ["fatigue", "feel tired"],
+         "responses": ["Ok, what else?", "what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "stomach_pain",
+         "patterns": ["heartburn","indigestion", "I have heartburn", "I have indigestion"],
+         "responses": ["Ok, what else?", "what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        },
+        
+        {"tag": "imbalance",
+         "patterns": ["I feel imbalance", "sudden dizziness", "I have lightheadedness"],
+         "responses": ["Ok, what else?", "what else?","Aha, what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        },
+
+        {"tag": "nausea",
+         "patterns": ["I feel nausea", "nausea"],
+         "responses": ["Ok, what else?", "what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        },
+
+        {"tag": "breath",
+         "patterns": ["shortness of breath", "I can't breathe properly", "I can't breathe good"],
+         "responses": ["Ok, what else?", "what else?", "I need more data", "I need more data to help you"],
+         "context_set": ""
+        }
+
+]
+}
